@@ -160,7 +160,7 @@ p {
 }
 
 .block_1 {
-  background-image: url(./img/image1.png);
+  background-image: url(img/image1.png);
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -412,7 +412,7 @@ p {
 }
 
 .block_3 {
-  background-image: url(./img/shape2.png);
+  background-image: url(img/image1.png);
 }
 
 .block_3 .title {
