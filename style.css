@@ -6,8 +6,8 @@
 html {
   --primary-color: rgb(204, 204, 204);
   --secondary-color: #48974c;
-  --primary-font-family: "Cormorant Infant", serif;
-  --secondary-font-family: "PT Sans", sans-serif;
+  --primary-font-family: 'Cormorant Infant', serif;
+  --secondary-font-family: 'PT Sans', sans-serif;
 }
 
 .flex {
@@ -398,7 +398,6 @@ p {
   height: 55px;
   background-color: var(--secondary-color);
   color: #fff;
-  margin-left: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -447,6 +446,10 @@ p {
   height: 261px;
   background-color: #fff;
   padding: 34px;
+}
+
+.block_4 .facebook img {
+  width: 100%;
 }
 
 .block_4 .banner {
@@ -510,9 +513,8 @@ p {
 }
 
 .pagination .arrow {
+  width: 55px;
   background-color: #f1f1f1;
-  width: auto;
-  margin: 0 10px;
 }
 
 .footer {
@@ -614,28 +616,19 @@ p {
     padding-top: 0;
   }
   .block_1 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-size: cover;
   }
   .block_1 .title {
-    width: 300px;
-  }
-  .block_1 .title h2 {
-    font-size: 24px;
-  }
-  .block_1 .title p {
-    font-size: 16px;
-    line-height: 20px;
+    display: none;
   }
   .block_1 .scroll {
-    margin-top: 20px;
-    margin-left: 25px;
+    display: none;
   }
   .pt430 {
     padding-top: 240px;
   }
   .block_3 .title {
-    width: 300px;
+    width: 250px;
     height: 35px;
   }
   .block_3 .title p {
@@ -645,6 +638,7 @@ p {
   .block_3 .title .button {
     font-size: 14px;
     height: 35px;
+    width: 130px;
   }
   .block_4 {
     -webkit-box-orient: vertical;
@@ -706,6 +700,15 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
     height: 50px;
+  }
+  .functionality {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .functionality .social-network {
+    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
